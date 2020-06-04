@@ -1,0 +1,34 @@
+.quantity-selector-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .quantity-selector {
+        margin-top: 6px;
+        margin-left: 12px;
+        height: 10px;
+        background-color: #bcb4b4;
+        border-radius: 10px;
+        -webkit-appearance: none;
+        appearance: none;
+        outline: none;
+    }
+
+    .quantity-selector::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #4CAF50;
+        cursor: pointer;
+    }
+    
+    .quantity-selector::-moz-range-thumb {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #4CAF50;
+        cursor: pointer;
+    }
+}
