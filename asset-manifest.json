@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/checkout-page/static/css/main.7722a0e3.chunk.css",
-    "main.js": "/checkout-page/static/js/main.df3fea87.chunk.js",
-    "main.js.map": "/checkout-page/static/js/main.df3fea87.chunk.js.map",
+    "main.js": "/checkout-page/static/js/main.2a1bdf08.chunk.js",
+    "main.js.map": "/checkout-page/static/js/main.2a1bdf08.chunk.js.map",
     "runtime-main.js": "/checkout-page/static/js/runtime-main.13596de9.js",
     "runtime-main.js.map": "/checkout-page/static/js/runtime-main.13596de9.js.map",
     "static/js/2.ae659504.chunk.js": "/checkout-page/static/js/2.ae659504.chunk.js",
     "static/js/2.ae659504.chunk.js.map": "/checkout-page/static/js/2.ae659504.chunk.js.map",
     "index.html": "/checkout-page/index.html",
-    "precache-manifest.92a6691bdc2db242931f8eba2510dbaf.js": "/checkout-page/precache-manifest.92a6691bdc2db242931f8eba2510dbaf.js",
+    "precache-manifest.ad7bf5d40aa1f94b7984a19434f3ecbc.js": "/checkout-page/precache-manifest.ad7bf5d40aa1f94b7984a19434f3ecbc.js",
     "service-worker.js": "/checkout-page/service-worker.js",
     "static/css/main.7722a0e3.chunk.css.map": "/checkout-page/static/css/main.7722a0e3.chunk.css.map",
     "static/js/2.ae659504.chunk.js.LICENSE.txt": "/checkout-page/static/js/2.ae659504.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.13596de9.js",
     "static/js/2.ae659504.chunk.js",
     "static/css/main.7722a0e3.chunk.css",
-    "static/js/main.df3fea87.chunk.js"
+    "static/js/main.2a1bdf08.chunk.js"
   ]
 }
