@@ -12,6 +12,10 @@
         -webkit-appearance: none;
         appearance: none;
         outline: none;
+
+        @media (max-width: 768px) {
+            width: 50px;
+        }
     }
 
     .quantity-selector::-webkit-slider-thumb {
@@ -20,15 +24,15 @@
         width: 15px;
         height: 15px;
         border-radius: 50%;
-        background: #4CAF50;
+        background: #1f9810;
         cursor: pointer;
     }
-    
+
     .quantity-selector::-moz-range-thumb {
         width: 15px;
         height: 15px;
         border-radius: 50%;
-        background: #4CAF50;
+        background: #1f9810;
         cursor: pointer;
     }
 }

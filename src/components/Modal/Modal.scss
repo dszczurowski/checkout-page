@@ -1,0 +1,30 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 8px 8px 30px #3a3535;
+
+  .confirm-btn {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    background-color: #1f9810;
+    border: none;
+    border-radius: 14px;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

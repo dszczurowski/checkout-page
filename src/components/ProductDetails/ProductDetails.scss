@@ -7,6 +7,12 @@
   border-radius: 16px;
   padding: 20px;
   box-shadow: 8px 8px 30px #3a3535;
+  z-index: 3;
+  margin-right: -10px;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 
   .product-brand {
     font-weight: bold;

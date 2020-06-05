@@ -4,17 +4,26 @@ import QuantitySelector from '../../components/QuantitySelector/QuantitySelector
 import { getInitialTotalAmount, getTotalAmount, getTotalAmountWithoutDiscount, PRODUCT_PRICE } from '../../utils/price'
 import './ProductDetails.scss';
 
-const ProductDetails: React.FC = () => {
+interface IProps {
+  onProductDataChange: (amount: number, quantity: number) => void;
+}
+
+const ProductDetails: React.FC<IProps> = ({ onProductDataChange }) => {
   const [freeShipping, setFreeShipping] = useState(false);
   const [totalAmount, setTotalAmount] = useState(getInitialTotalAmount());
   const [quantity, setQuantity] = useState(1);
 
-  useEffect(() => setTotalAmount(getTotalAmount(quantity, freeShipping)), [quantity,freeShipping])
+  useEffect(() => {
+    const amount = getTotalAmount(quantity, freeShipping);
+    setTotalAmount(amount);
+    onProductDataChange(amount, quantity);
+    // eslint-disable-next-line
+  }, [quantity, freeShipping])
 
   const handleQuantityChange = (evt: React.ChangeEvent<HTMLInputElement>) => {
     const quantity = Number(evt.target.value);
     setQuantity(quantity);
-    setFreeShipping(quantity >= 12);
+    setFreeShipping(quantity > 11);
   }
 
   const totalAmountWithoutDiscount = quantity > 1 && <s>${getTotalAmountWithoutDiscount(quantity, freeShipping)}</s>;

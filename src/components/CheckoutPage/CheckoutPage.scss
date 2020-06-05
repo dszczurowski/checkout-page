@@ -1,7 +1,10 @@
 .checkout-page {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #303d9a;
+  background-color: white;
+  
+  .checkout-info {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
