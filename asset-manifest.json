@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/checkout-page/static/css/main.7722a0e3.chunk.css",
+    "main.js": "/checkout-page/static/js/main.dc90a973.chunk.js",
+    "main.js.map": "/checkout-page/static/js/main.dc90a973.chunk.js.map",
+    "runtime-main.js": "/checkout-page/static/js/runtime-main.13596de9.js",
+    "runtime-main.js.map": "/checkout-page/static/js/runtime-main.13596de9.js.map",
+    "static/js/2.ae659504.chunk.js": "/checkout-page/static/js/2.ae659504.chunk.js",
+    "static/js/2.ae659504.chunk.js.map": "/checkout-page/static/js/2.ae659504.chunk.js.map",
+    "index.html": "/checkout-page/index.html",
+    "precache-manifest.49cb271335fd3e056c3a8d7c42d0157a.js": "/checkout-page/precache-manifest.49cb271335fd3e056c3a8d7c42d0157a.js",
+    "service-worker.js": "/checkout-page/service-worker.js",
+    "static/css/main.7722a0e3.chunk.css.map": "/checkout-page/static/css/main.7722a0e3.chunk.css.map",
+    "static/js/2.ae659504.chunk.js.LICENSE.txt": "/checkout-page/static/js/2.ae659504.chunk.js.LICENSE.txt",
+    "static/media/product.png": "/checkout-page/static/media/product.5d2b8b6a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13596de9.js",
+    "static/js/2.ae659504.chunk.js",
+    "static/css/main.7722a0e3.chunk.css",
+    "static/js/main.dc90a973.chunk.js"
+  ]
+}
