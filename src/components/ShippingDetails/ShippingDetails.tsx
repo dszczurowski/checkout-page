@@ -21,10 +21,10 @@ const ShippingDetails: React.FC<IProps> = ({ onPurchaseClick }) => {
 
   useEffect(() => {
     (async () => {
-      let response  = await fetch('http://ip-api.com/json');
+      let response  = await fetch('https://api.ipdata.co?api-key=test');
       let data = await response.json();
-      setFormState({ ...formState, country: data.country })
-      setFetchedCountry(data.country);
+      setFormState({ ...formState, country: data.country_name })
+      setFetchedCountry(data.country_name);
     })();
     // eslint-disable-next-line
   }, [])
